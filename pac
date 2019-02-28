@@ -9,7 +9,8 @@ var proxy = 'SOCKS5 127.0.0.1:1080';
 //var proxy ='PROXY 127.0.0.1:1080';
 var rules = [
     [
-        [
+        [   
+            "gradle.org",
             "haygo.com", 
             "locql.com", 
             "simplecd.me", 
